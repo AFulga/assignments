@@ -28,6 +28,7 @@ h1{
 }
 .container > div:nth-child(1) .title{
 	background-color: #d59898;
+	color: black;
 }
 .container > div:nth-child(2) .title{
 	background-color: #c14543;
@@ -70,4 +71,17 @@ h1{
 	.item-container{
 		margin-left: 40px;
 	}
+}
+
+.container > div:nth-child(1) .item-container{
+	background-color: #339933;
+	color: #ffff99;
+}
+
+.container > div:nth-child(2) .item-container{
+	background-color: #2eb8b8;
+}
+
+.container > div:nth-child(3) .item-container{
+	background-color: #ff6666;
 }
